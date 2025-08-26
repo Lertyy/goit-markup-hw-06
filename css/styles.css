@@ -113,7 +113,7 @@ button {
   color: #2e2f42;
 }
 
-.burger-btn {
+.burger-btm {
   padding: 0;
   border: none;
   background-color: transparent;
@@ -121,7 +121,7 @@ button {
 
 .burger-icon {
   display: block;
-  fill: #2f2f37;
+  fill: #372f2f;
 }
 
 @media screen and (min-width: 768px) {
@@ -446,7 +446,7 @@ button {
       ),
       image-set(
         url("../images/title-img-tabl-min.png") 1x,
-        url("../images/title-img-tabl@2x-min.png") 2x
+      url("../images/title-img-tabl@2x-min.png") 2x
       );
   }
 
@@ -470,8 +470,8 @@ button {
         rgba(46, 47, 66, 0.7)
       ),
       image-set(
-        url("../images/title-img/title-img-desk-min.png") 1x,
-        url("../images/title-img/title-img-desk@2x-min.png") 2x
+        url("../images/people-desk.png") 1x,
+        url("../images/people-desk@2x.png") 2x
       );
     background-size: cover;
   }
